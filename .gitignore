@@ -1,0 +1,4 @@
+#git ignore this:
+/node_modules
+package-lock.json
+/dist

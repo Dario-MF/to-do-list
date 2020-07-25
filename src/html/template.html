@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div class="layout">
+        <header id="header" class="header">
+            <h1 class="titleH1">TO DO LIST</h1>
+        </header>
+        <div class="task">
+            <article class="pending" id="pendingTask">
+                <h2 class="title">Tareas pendientes</h2>
+
+                <div class="box" id="pendingBox">
+                    <div class="button newTask" id="newTask"></div>
+                    <div class="modal" id="modal">
+                        <div class="modal-box">
+                            <input type="text" placeholder="Titulo de la tarea" id="title-new-task"
+                                class="title-new-task">
+                            <textarea class="text-new-task" id="text-new-task" cols="60" rows="10"
+                                placeholder="Descripción de su tarea..."></textarea>
+                            <div class="buttons-modal">
+                                <div class="salir-modal" id="close-modal">Salir</div>
+                                <div class="enviar-modal" id="input-modal">Enviar</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <ul class="list" id="pendingList">
+
+                    </ul>
+
+                </div>
+            </article>
+
+            <article class="pending" id="performTask">
+                <h2 class="title">Tareas realizadas</h2>
+
+                <div class="box" id="performBox">
+                    <ul class="list" id="performList">
+
+                    </ul>
+                </div>
+            </article>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

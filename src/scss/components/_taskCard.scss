@@ -1,0 +1,43 @@
+
+.card {
+    width: 100%;
+    border-radius: 25px;
+    padding: .5em;
+    margin-top: .5em;
+    color: $font-color-2;
+    
+}
+
+#pendingList .card{
+    border: 3px solid $color-pending-task;
+    .finish-task{
+        opacity: .4;
+        &:hover{
+            opacity: 10;
+        }
+    }
+}
+
+#performList .card{
+    text-decoration-line:line-through;
+    border: 3px solid $color-perform-task;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+}
+.card-title {
+    flex-grow: 1;
+    
+    font-size: $font-size-smoll;
+    font-family: $font-family;  
+}
+
+.card-description {
+    margin: 0 auto;
+    font-size: $font-size-smoll;
+    font-family: $font-family
+}
+

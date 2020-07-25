@@ -1,0 +1,17 @@
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin : 0; 
+  height: 100vh; 
+  font-family: $font-family;
+  background: linear-gradient(rgb(243, 65, 80), rgb(54, 147, 235));
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

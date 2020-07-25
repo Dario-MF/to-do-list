@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+
+    //background-color: rgba(189, 163, 163, 0.308);
+}
+.task {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+/*
+  This boilerplate is based in ITCSS and SMACSS
+*/
+// Config
+@import "config/variables";
+// Base 
+@import "base/base";
+// LAYOUT  
+@import "layout/layout";
+// MODULOS  
+
+@import "components/buttons";
+@import "components/header";
+@import "components/tasksBox";
+@import "components/taskCard";
+@import "components/modal";
+// Theme 
+@import "theme/typography";
+// Utilities (hacks)
+

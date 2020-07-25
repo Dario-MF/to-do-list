@@ -1,0 +1,70 @@
+
+
+
+.newTask{
+    width: 40px;
+    height: 40px;
+    margin:0 auto .5em;
+    background-image: url(../img/066-plus.png);
+    background-size: contain;
+    cursor: pointer;
+    &:hover{
+        width: 45px;
+        height: 45px;
+    }    
+}
+.delete-task {
+    margin-right: .5em;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/076-remove.png);
+    background-size: contain;
+    cursor: pointer;
+    &:hover{
+        width: 30px;
+        height: 30px;
+        transition: .3s;
+    }  
+}
+
+.finish-task {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/008-check.png);
+    background-size: contain;
+    cursor: pointer;
+    &:hover{
+        width: 30px;
+        height: 30px;
+        transition: .3s; 
+    }    
+}
+
+.salir-modal{
+    padding: .5em;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    border-radius: 15px;
+    color: $font-color-1;
+    background-color: $color-pending-task;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(238, 57, 57);
+    }
+
+}
+.enviar-modal {   
+    height: 2em;
+    width: 5em;
+    padding: .5em;
+    margin-left: 1em;
+    text-align: center;
+    border-radius: 15px;
+    color: $font-color-1;
+    background-color: $color-perform-task;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(13, 231, 86);
+    }
+}
