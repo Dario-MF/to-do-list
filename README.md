@@ -4,6 +4,7 @@ Practica sencilla de gestor de tareas, usando WebStorage.
 ## Autor
 Dario Mariño Ferrada
 
+![Sin título](https://user-images.githubusercontent.com/44214019/88447039-76caac00-ce2f-11ea-9a93-dce941624457.jpg)
 
 ## Caracteristicas del proyecto
 - Compilar               => npm run build
