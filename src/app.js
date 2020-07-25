@@ -5,8 +5,8 @@ import { v4 as uuidv4 } from 'uuid';
 let pendingStorage = [];
 let finishedStorage = [];
 try {
-    pendingStorage = JSON.parse(localStorage.getItem('pendingTask'));
-    finishedStorage = JSON.parse(localStorage.getItem('finishedTask'));
+    pendingStorage = JSON.parse(localStorage.getItem('pendingTask') || []);
+    finishedStorage = JSON.parse(localStorage.getItem('finishedTask') || []);
 
     pendingStorage.forEach(task => printTask(task, "pendingList"));
     finishedStorage.forEach(task => printTask(task, "performList"));
@@ -45,7 +45,7 @@ function captureModal() {
     let textTitle = document.getElementById("title-new-task").value;
     let textDescription = document.getElementById("text-new-task").value;
     let idItem = uuidv4();
-
+    console.log(pendingStorage);
     pendingStorage.push({ id: idItem, title: textTitle, description: textDescription });
 
     sendStorage('pendingTask', pendingStorage);
